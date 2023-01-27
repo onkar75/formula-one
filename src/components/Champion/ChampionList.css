@@ -1,0 +1,81 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.card__profile {
+  background: #fdfeff;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 40px rgb(0 0 0 / 20%);
+  margin: 1rem;
+}
+
+.card__profile:hover {
+  transform: scale(1.1);
+}
+
+.card__profile__name {
+  color: #2d354a;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.card__profile__season {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.card__profile__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card__profile__actions__link {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border: 2px solid tomato;
+  padding: 8px 15px;
+  border-radius: 30px;
+  background: tomato;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card__profile__card-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5rem;
+}
+
+.card__profile__card-stats__stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.card__profile__card-stats__stats__type {
+  font-size: 9px;
+  font-weight: 400;
+  color: grey;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.card__profile__card-stats__stats__value {
+  font-size: 16px;
+  font-weight: 500;
+}

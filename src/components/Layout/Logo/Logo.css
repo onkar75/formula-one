@@ -1,0 +1,12 @@
+.svg {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 0 13px 26px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%);
+  padding-left: 3px;
+  border-radius: 2rem;
+}

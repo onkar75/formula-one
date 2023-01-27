@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid black;
+  font-size: larger;
+  font-weight: 700;
+  background: tomato;
+  padding: 1rem;
+}
+.col {
+  display: flex;
+  padding: 0.5rem;
+  width: 20rem;
+  margin-left: 0.5rem;
+}
