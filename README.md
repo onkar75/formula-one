@@ -45,9 +45,9 @@ Vitest
 
     3. npm install
 
-    4. npm run dev  to run in dev mode[localhost:3000]
+    4. npm run dev to run in dev mode
 
-    5. npm run build will build the app in the build directory
+    5. npm run build will build the app
 
     6. npm test to run the test.
 
